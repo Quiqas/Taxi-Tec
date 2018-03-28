@@ -1,0 +1,64 @@
+body{
+	background: black;
+}
+
+.container{
+	margin-left: 0px;
+	margin-right: 0px;
+	max-width: 100%;
+}
+	
+#map{
+	height: 690px;
+	width: 75%;
+	background-color: grey;
+}
+
+#half{
+	height: 690px;
+	width: -15%;
+	background-color: grey;
+}
+
+.photo-wrapper {
+ 
+    height: 40vh;
+    text-align: center;
+    background-image: url(../img/Lv2.png);
+    
+
+    background-size: 100% 100%;
+	
+	position: relative;
+
+}
+.Espacio{
+	margin-top: 250px;
+}
+.Espacio1{
+	margin-top: 10px;
+}
+button {
+	width: 300px;
+}
+.an{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.an1{
+  animation-duration: 3s;
+  animation-name: slidein2;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
